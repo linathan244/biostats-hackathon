@@ -1,0 +1,26 @@
+[project]
+name = "biostats-hackathon"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nathan Li",email = "linathan.us@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "pandas (>=3.0.6,<4.0.0)",
+    "numpy (>=2.5.3,<3.0.0)",
+    "matplotlib (>=3.11.2,<4.0.0)",
+    "scipy (>=1.18.1,<2.0.0)",
+    "scikit-learn (>=1.9.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.4.0,<8.0.0)"
+]

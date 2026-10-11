@@ -1,2 +1,4 @@
 # biostats-hackathon
-type shi
+Data and TSV Files from:
+https://www.cancerimagingarchive.net/collection/cfb-gbm/
+
